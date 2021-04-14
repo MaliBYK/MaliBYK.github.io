@@ -195,6 +195,8 @@ img {
   bottom: 80px;
   left: 200px;
   height: 20px;
+  display: block;
+  width: 300px;
 }
 
 .homeFirstPart {
