@@ -142,11 +142,11 @@ img {
 }
 
 .home {
-  height: calc(100vh - var(--header-height));
+  height: calc(100vh - var(--header-height) - 20px);
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  /* justify-content: center; */
+  align-items: space-between;
+  justify-content: center;
 }
 
 .home__title-color {
@@ -178,4 +178,36 @@ img {
   position: relative;
   bottom: 10vh;
   left: 20vh;
+}
+
+.homeImg {
+  width: 800px;
+  position: relative;
+  bottom: var(--m-6);
+  right: var(--m-2);
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  position: relative;
+  bottom: 80px;
+  left: 200px;
+  height: 20px;
+}
+
+.homeFirstPart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__social-icon {
+  margin-left: 1rem;
+  color: var(--second-color);
+}
+
+.home__social-icon:hover {
+  transition: color 0.5s ease;
+  color: var(--first-color);
 }
