@@ -221,7 +221,7 @@ img {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 250px;
+  width: 500px;
 }
 
 /*BUTTONS*/
@@ -433,7 +433,7 @@ img {
     margin-right: var(--mb-4);
   }
   .home__img {
-    width: 250px;
+    width: 450px;
     bottom: 30%;
   }
 
